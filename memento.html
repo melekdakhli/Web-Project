@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction - CSS, la mise en forme de votre HTML</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+     
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Introduction - CSS, la mise en forme de votre HTML</h1>
+    <p>Ce cours s'adresse aux personnes ayant des notions de HTML.</p>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="chp1.html">Chapitre 1 - Les sélecteurs et propriétés</a></li>
+            <li><a href="chp2.html">Chapitre 2 - Héritage en cascade</a></li>
+            <li><a href="chp3.html">Chapitre 3 - Propriété display</a></li>
+            <li><a href="chp4.html">Chapitre 4 - Le modèle de boîte</a></li>
+            <li><a href="chp5.html">Chapitre 5 - Les unités</a></li>
+            <li><a href="chp6.html">Chapitre 6 - Typographie</a></li>
+            <li><a href="exercice.html">Exercices</a></li>
+            <li><a href="memento.html">Mémento</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+          </ul>
+      </nav>
+    </aside>
+    <main>
+        <section>
+            <h2>Mémento</h2>
+            <p>Ce mémento rassemble les principales notions du cours CSS pour une révision rapide.</p>
+          
+            <h3>Les sélecteurs et propriétés</h3>
+            <ul>
+              <li>Sélecteur universel (`*`), sélecteur de type (`p`), classe (`.classe`), identifiant (`#id`).</li>
+              <li>Propriétés de base : `color`, `background`, `margin`, `padding`.</li>
+            </ul>
+          
+            <h3>Héritage et cascade</h3>
+            <ul>
+              <li>L'héritage permet à certaines propriétés (comme `color`, `font-family`) d'être transmises aux éléments enfants.</li>
+              <li>La cascade détermine la priorité des styles en fonction de la spécificité et de l'origine des styles (externe, interne, en ligne).</li>
+            </ul>
+          
+            <h3>Propriété display</h3>
+            <ul>
+              <li>`display: block` : l'élément occupe toute la largeur disponible.</li>
+              <li>`display: inline` : l'élément occupe uniquement la largeur de son contenu.</li>
+              <li>`display: flex` et `display: grid` : pour des mises en page avancées en une ou deux dimensions.</li>
+            </ul>
+          
+            <h3>Le modèle de boîte</h3>
+            <ul>
+              <li>Comprend le contenu, le padding, la bordure, et la marge.</li>
+              <li>Utilisez `box-sizing: border-box` pour inclure padding et bordure dans la largeur et hauteur.</li>
+            </ul>
+          
+            <h3>Les unités</h3>
+            <ul>
+              <li>Unités absolues : `px`, `cm`.</li>
+              <li>Unités relatives : `%`, `em`, `rem`.</li>
+            </ul>
+          
+            <h3>Typographie</h3>
+            <ul>
+              <li>`font-family` pour la police, `font-size` pour la taille de texte.</li>
+              <li>`font-weight` pour l'épaisseur, `line-height` pour l'espacement des lignes.</li>
+            </ul>
+          </section>
+          <div class="navigation-buttons">
+            <a href="exercice.html" class="prev-button">⬅ Précédent</a>
+            <a href="quiz.html" class="next-button">Suivant ➔</a>
+          </div>
+          
+</main>
+</div>
+</body>
+</html>

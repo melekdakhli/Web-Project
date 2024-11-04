@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction - CSS, la mise en forme de votre HTML</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+     
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Introduction - CSS, la mise en forme de votre HTML</h1>
+    <p>Ce cours s'adresse aux personnes ayant des notions de HTML.</p>
+   
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="chp1.html">Chapitre 1 - Les sélecteurs et propriétés</a></li>
+          <li><a href="chp2.html">Chapitre 2 - Héritage en cascade</a></li>
+          <li><a href="chp3.html">Chapitre 3 - Propriété display</a></li>
+          <li><a href="chp4.html">Chapitre 4 - Le modèle de boîte</a></li>
+          <li><a href="chp5.html">Chapitre 5 - Les unités</a></li>
+          <li><a href="chp6.html">Chapitre 6 - Typographie</a></li>
+          <li><a href="exercice.html">Exercices</a></li>
+          <li><a href="memento.html">Mémento</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+        <section>
+            <h2>Exercices</h2>
+          
+            <!-- Exercice pour le Chapitre 1 : Les sélecteurs et propriétés -->
+            <h3>Exercice - Chapitre 1 : Les sélecteurs et propriétés</h3>
+            <p>1. Créez un fichier HTML et une feuille de style CSS associés. Utilisez les sélecteurs suivants pour styliser votre page :</p>
+            <ul>
+              <li>Appliquez une couleur de fond différente à tous les paragraphes.</li>
+              <li>Utilisez un sélecteur de classe pour modifier la couleur du texte de certains éléments.</li>
+              <li>Ajoutez un style à un élément unique en utilisant un identifiant (`id`).</li>
+            </ul>
+          
+            <!-- Exercice pour le Chapitre 2 : Héritage en cascade -->
+            <h3>Exercice - Chapitre 2 : Héritage en cascade</h3>
+            <p>2. En utilisant des éléments HTML imbriqués, appliquez différents styles pour observer l'héritage en CSS :</p>
+            <ul>
+              <li>Définissez une couleur de texte pour un élément parent et vérifiez comment elle est héritée par les éléments enfants.</li>
+              <li>Essayez de redéfinir la couleur de texte pour l'un des enfants et observez le résultat.</li>
+              <li>Utilisez des sélecteurs avec des niveaux de spécificité différents et observez l'ordre de priorité appliqué par le navigateur.</li>
+            </ul>
+          
+            <!-- Exercice pour le Chapitre 3 : Propriété display -->
+            <h3>Exercice - Chapitre 3 : Propriété display</h3>
+            <p>3. Utilisez la propriété `display` pour organiser des éléments sur une page :</p>
+            <ul>
+              <li>Créez plusieurs éléments et appliquez-leur les valeurs `block`, `inline`, et `inline-block` pour voir les différences d'affichage.</li>
+              <li>Expérimentez avec `display: flex` pour aligner des éléments horizontalement et verticalement dans un conteneur.</li>
+              <li>Créez une grille simple en utilisant `display: grid` et organisez des éléments en lignes et colonnes.</li>
+            </ul>
+          
+            <!-- Exercice pour le Chapitre 4 : Le modèle de boîte -->
+            <h3>Exercice - Chapitre 4 : Le modèle de boîte</h3>
+            <p>4. Utilisez les propriétés du modèle de boîte pour styliser des éléments :</p>
+            <ul>
+              <li>Ajoutez des marges et du padding autour d'un élément et observez l'impact sur son espace.</li>
+              <li>Modifiez la largeur et la hauteur de l'élément, et ajoutez une bordure pour comprendre comment le modèle de boîte fonctionne.</li>
+              <li>Essayez de passer en `box-sizing: border-box` pour voir la différence de comportement dans le calcul des dimensions.</li>
+            </ul>
+          
+            <!-- Exercice pour le Chapitre 5 : Les unités -->
+            <h3>Exercice - Chapitre 5 : Les unités</h3>
+            <p>5. Testez différentes unités de mesure pour styliser un élément :</p>
+            <ul>
+              <li>Utilisez des unités absolues comme `px` et `cm` pour la largeur et la hauteur d'un élément.</li>
+              <li>Appliquez des unités relatives comme `%`, `em`, et `rem` pour la taille de police et les marges.</li>
+              <li>Comparez l'utilisation des unités relatives pour voir comment elles affectent la réactivité de la page.</li>
+            </ul>
+          
+            <!-- Exercice pour le Chapitre 6 : Typographie -->
+            <h3>Exercice - Chapitre 6 : Typographie</h3>
+            <p>6. Expérimentez avec les propriétés de typographie pour améliorer la lisibilité du texte :</p>
+            <ul>
+              <li>Changez la police en utilisant `font-family` et testez différentes tailles avec `font-size`.</li>
+              <li>Appliquez des variations de poids de police (`font-weight`) et ajustez l'espacement entre les lignes avec `line-height`.</li>
+              <li>Essayez d'aligner le texte avec `text-align` et ajustez l'espacement des lettres avec `letter-spacing`.</li>
+            </ul>
+          
+            <div class="navigation-buttons">
+              <a href="chp6.html" class="prev-button">⬅ Précédent</a>
+              <a href="memento.html" class="next-button">Suivant ➔</a>
+            </div>
+            
+          </section>
+          
+    </main>
+  </div>
+</body>
+</html>

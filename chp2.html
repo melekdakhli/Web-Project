@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction - CSS, la mise en forme de votre HTML</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Introduction - CSS, la mise en forme de votre HTML</h1>
+    <p>Ce cours s'adresse aux personnes ayant des notions de HTML.</p>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="chp1.html">Chapitre 1 - Les sélecteurs et propriétés</a></li>
+          <li><a href="chp2.html">Chapitre 2 - Héritage en cascade</a></li>
+          <li><a href="chp3.html">Chapitre 3 - Propriété display</a></li>
+          <li><a href="chp4.html">Chapitre 4 - Le modèle de boîte</a></li>
+          <li><a href="chp5.html">Chapitre 5 - Les unités</a></li>
+          <li><a href="chp6.html">Chapitre 6 - Typographie</a></li>
+          <li><a href="exercice.html">Exercices</a></li>
+          <li><a href="memento.html">Mémento</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+        <section>
+            <h2>Chapitre 2 - Héritage en cascade</h2>
+            <p>En CSS, l'héritage et la cascade permettent de contrôler comment les styles sont appliqués lorsque plusieurs règles se chevauchent. Ces concepts sont essentiels pour structurer et organiser les styles dans un projet.</p>
+            
+            <h3>2.1 Héritage</h3>
+            <p>
+              L'héritage en CSS se produit lorsque certaines propriétés sont automatiquement transmises des éléments parents aux éléments enfants. Par exemple, les propriétés comme la couleur (`color`) et la police (`font-family`) sont héritées, tandis que d'autres comme les marges (`margin`) ne le sont pas.
+            </p>
+            
+            <h3>2.2 La Cascade</h3>
+            <p>
+              La cascade détermine la priorité des règles CSS lorsque plusieurs styles sont appliqués au même élément. Les styles peuvent être définis dans des feuilles externes, des styles en ligne ou dans la balise `style` de la page. Le principe de cascade prend en compte les spécificités et la source du style pour déterminer le style final.
+            </p>
+          
+            <h3>2.3 Les règles de priorité</h3>
+            <p>
+              Pour résoudre les conflits entre styles, le CSS utilise un système de priorité basé sur la spécificité. Plus le sélecteur est spécifique, plus sa règle sera prioritaire. Par exemple, un identifiant (`#id`) a une spécificité plus élevée qu'une classe (`.classe`).
+            </p>
+          </section>
+          
+          <div class="navigation-buttons">
+            <a href="chp1.html" class="prev-button">⬅ Précédent</a>
+            <a href="chp3.html" class="next-button">Suivant ➔</a>
+          </div>
+          
+
+    </main>
+</div>
+</body>
+</html>

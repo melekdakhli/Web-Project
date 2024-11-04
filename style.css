@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-direction: row-reverse; /* This moves the sidebar to the right */
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #4a90e2;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+}
+
+.content h2 {
+  color: #4a90e2;
+}
+
+.content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;  /* Place les boutons aux extrémités gauche et droite */
+  margin-top: 20px;               /* Espacement au-dessus de la section */
+}
+
+.prev-button,
+.next-button {
+  display: inline-block;          /* Permet d’ajouter des marges et du padding */
+  background-color: #4CAF50;      /* Couleur de fond */
+  color: white;                   /* Couleur du texte */
+  padding: 10px 20px;             /* Espacement intérieur */
+  text-decoration: none;          /* Retire le soulignement du lien */
+  border-radius: 5px;             /* Coins arrondis */
+  font-weight: bold;              /* Texte en gras */
+  font-size: 16px;                /* Taille du texte */
+  transition: background-color 0.3s ease; /* Transition douce pour le survol */
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #45a049;      /* Couleur de fond au survol */
+}
+.code {
+  font-family: monospace;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  color: #333;
+}
+.code .selector { color: red; }
+.code .property { color: green; }
+.code .value { color: blue; }
+.code .comment { color: gray; font-style: italic; }
+
